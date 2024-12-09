@@ -1,0 +1,93 @@
+/* הגדרות כלליות */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #e3f2fd;
+    color: #333;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    font-weight: 600;
+    animation: fadeIn 2s ease-in-out;
+}
+
+header .icons {
+    margin-top: 10px;
+}
+
+header .icons a {
+    margin: 0 10px;
+    color: #444;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+header .icons a:hover {
+    color: #42a5f5;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 2px solid #90caf9;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.download-section button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #90caf9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.download-section button:hover {
+    background-color: #42a5f5;
+}
+
+/* אנימציות */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
+
+
+.skills i {
+    margin-right: 8px;
+    color: #42a5f5; /* צבע כחול עדין לאייקונים */
+}
